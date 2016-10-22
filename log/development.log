@@ -175,3 +175,1341 @@ Started GET "/movies/new" for ::1 at 2016-10-12 16:59:14 -0500
 Processing by MoviesController#new as HTML
   Rendered movies/new.html.haml within layouts/application (2.3ms)
 Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 128.194.5.137 at 2016-10-21 14:37:15 +0000
+Cannot render console from 128.194.5.137! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentRequestsController#index as HTML
+  [1m[35mStudentRequest Load (0.3ms)[0m  SELECT "student_requests".* FROM "student_requests"
+  Rendered student_requests/index.html.haml within layouts/application (15.0ms)
+Completed 200 OK in 373ms (Views: 361.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-49554e9e270baee081b10069c4f5f33b75f6549ad240aac134400c56d752bf9f.css?body=1" for 128.194.5.137 at 2016-10-21 14:37:16 +0000
+Cannot render console from 128.194.5.137! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 128.194.5.137 at 2016-10-21 14:37:16 +0000
+Cannot render console from 128.194.5.137! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 128.194.5.137 at 2016-10-21 14:37:16 +0000
+Cannot render console from 128.194.5.137! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 128.194.5.137 at 2016-10-21 14:37:16 +0000
+Cannot render console from 128.194.5.137! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.194.5.137 at 2016-10-21 14:37:16 +0000
+Cannot render console from 128.194.5.137! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.194.5.137 at 2016-10-21 14:37:16 +0000
+Cannot render console from 128.194.5.137! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 128.194.5.137 at 2016-10-21 14:51:19 +0000
+Cannot render console from 128.194.5.137! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (Couldn't find StudentRequestsHelper, expected it to be defined in helpers/student_requests_helper.rb):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/student_requests_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.8ms)
+
+
+Started GET "/" for 128.194.5.137 at 2016-10-21 14:52:09 +0000
+Cannot render console from 128.194.5.137! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (Couldn't find StudentRequestsHelper, expected it to be defined in helpers/student_requests_helper.rb):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/student_requests_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.6ms)
+
+
+Started GET "/" for 128.194.5.137 at 2016-10-21 14:52:23 +0000
+Cannot render console from 128.194.5.137! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentRequestsController#index as HTML
+Guessed service url: "https://force-request-system-new-shubham7jain.c9users.io/"
+Generated login url: https://cas-dev.tamu.edu/cas/login?service=https%3A%2F%2Fforce-request-system-new-shubham7jain.c9users.io%2F
+Redirecting to "https://cas-dev.tamu.edu/cas/login?service=https%3A%2F%2Fforce-request-system-new-shubham7jain.c9users.io%2F"
+Redirected to https://cas-dev.tamu.edu/cas/login?service=https%3A%2F%2Fforce-request-system-new-shubham7jain.c9users.io%2F
+Filter chain halted as CASClient::Frameworks::Rails::Filter rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.240.0.206 at 2016-10-21 14:53:13 +0000
+Cannot render console from 10.240.0.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+Guessed service url: "http://force-request-system-new-shubham7jain.c9users.io:8080/"
+Generated login url: https://cas-dev.tamu.edu/cas/login?service=http%3A%2F%2Fforce-request-system-new-shubham7jain.c9users.io%3A8080%2F
+Redirecting to "https://cas-dev.tamu.edu/cas/login?service=http%3A%2F%2Fforce-request-system-new-shubham7jain.c9users.io%3A8080%2F"
+Redirected to https://cas-dev.tamu.edu/cas/login?service=http%3A%2F%2Fforce-request-system-new-shubham7jain.c9users.io%3A8080%2F
+Filter chain halted as CASClient::Frameworks::Rails::Filter rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.240.0.186 at 2016-10-21 14:53:33 +0000
+Cannot render console from 10.240.0.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  [1m[35mStudentRequest Load (0.4ms)[0m  SELECT "student_requests".* FROM "student_requests"
+  Rendered student_requests/index.html.haml within layouts/application (13.1ms)
+Completed 200 OK in 292ms (Views: 289.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-49554e9e270baee081b10069c4f5f33b75f6549ad240aac134400c56d752bf9f.css?body=1" for 10.240.1.32 at 2016-10-21 14:53:34 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.0.206 at 2016-10-21 14:53:34 +0000
+Cannot render console from 10.240.0.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.0.187 at 2016-10-21 14:53:34 +0000
+Cannot render console from 10.240.0.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.1.60 at 2016-10-21 14:53:34 +0000
+Cannot render console from 10.240.1.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.186 at 2016-10-21 14:53:34 +0000
+Cannot render console from 10.240.0.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.0.204 at 2016-10-21 14:53:34 +0000
+Cannot render console from 10.240.0.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.240.1.15 at 2016-10-21 14:57:52 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentRequestsController#index as HTML
+  [1m[35mStudentRequest Load (0.3ms)[0m  SELECT "student_requests".* FROM "student_requests"
+  Rendered student_requests/index.html.haml within layouts/application (15.2ms)
+Completed 200 OK in 394ms (Views: 375.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-264fbb7204e393d1fb0cf4e603e1a6251e1eb13e22fa19a0ba68a0090e0e5b0a.css?body=1" for 10.240.1.20 at 2016-10-21 14:57:53 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/student_requests/new" for 10.240.0.204 at 2016-10-21 14:58:42 +0000
+Cannot render console from 10.240.0.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (10.9ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/student_requests/new" for 10.240.0.207 at 2016-10-21 14:58:42 +0000
+Cannot render console from 10.240.0.207! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (11.4ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.1.17 at 2016-10-21 14:58:42 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/student_requests/new" for 10.240.1.15 at 2016-10-21 15:03:35 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (6.5ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.1.32 at 2016-10-21 15:03:35 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.1.17 at 2016-10-21 15:03:35 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.1.20 at 2016-10-21 15:03:35 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.1.15 at 2016-10-21 15:03:35 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.1.20 at 2016-10-21 15:03:35 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.204 at 2016-10-21 15:03:35 +0000
+Cannot render console from 10.240.0.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/student_requests/new" for 10.240.1.60 at 2016-10-21 15:05:11 +0000
+Cannot render console from 10.240.1.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (3.1ms)
+  Rendered layouts/_header.html.haml (0.7ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.1.60 at 2016-10-21 15:05:11 +0000
+Cannot render console from 10.240.1.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.0.206 at 2016-10-21 15:05:11 +0000
+Cannot render console from 10.240.0.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.0.182 at 2016-10-21 15:05:11 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.1.15 at 2016-10-21 15:05:11 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.0.241 at 2016-10-21 15:05:11 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.206 at 2016-10-21 15:05:11 +0000
+Cannot render console from 10.240.0.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/student_requests/new" for 10.240.0.206 at 2016-10-21 15:05:24 +0000
+Cannot render console from 10.240.0.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (2.2ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.8ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.0.182 at 2016-10-21 15:05:25 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.1.32 at 2016-10-21 15:05:25 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.0.241 at 2016-10-21 15:05:25 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.0.207 at 2016-10-21 15:05:25 +0000
+Cannot render console from 10.240.0.207! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.1.15 at 2016-10-21 15:05:25 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.179 at 2016-10-21 15:05:25 +0000
+Cannot render console from 10.240.0.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/student_requests/new" for 10.240.0.208 at 2016-10-21 15:06:24 +0000
+Cannot render console from 10.240.0.208! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (2.2ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (3.4ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: <footer class="footer">
+    2:   <small>
+    3:     This site is developed by some passionate developers
+    4:   </small>
+    5:   <nav>
+  app/views/layouts/_footer.html.haml:2
+  app/views/layouts/application.html.haml:19:in `_app_views_layouts_application_html_haml___1342028583884254654_69991961531040'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.3ms)
+
+
+Started GET "/student_requests/new" for 10.240.1.20 at 2016-10-21 15:06:46 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (2.0ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (1.4ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: <footer class="footer">
+    2:   <small>
+    3:     This site is developed by some passionate developers
+    4:   </small>
+    5:   <nav>
+  app/views/layouts/_footer.html.haml:2
+  app/views/layouts/application.html.haml:19:in `_app_views_layouts_application_html_haml___1342028583884254654_69991961531040'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.6ms)
+
+
+Started GET "/student_requests/new" for 10.240.1.15 at 2016-10-21 15:06:57 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (2.3ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (1.6ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: <footer class="footer">
+    2:   <small>This site is developed by some passionate developers</small>
+    3:   <nav>
+    4:     <ul>
+    5:       <li><%= link_to "About",   about_path %></li>
+  app/views/layouts/_footer.html.haml:2
+  app/views/layouts/application.html.haml:19:in `_app_views_layouts_application_html_haml___1342028583884254654_69991961531040'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.4ms)
+
+
+Started GET "/student_requests/new" for 10.240.1.20 at 2016-10-21 15:07:20 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (2.6ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (31.7ms)
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `about_path' for #<#<Class:0x0000000453e6a8>:0x007f5099f45420>):
+    2:   %small This site is developed by some passionate developers
+    3:   %nav
+    4:     %ul
+    5:       %li= link_to "About",   about_path
+    6:       %li= link_to "Help",   help_path
+    7:       %li= link_to "Contact", contact_path
+  app/views/layouts/_footer.html.haml:5:in `_app_views_layouts__footer_html_haml___4495038028992278395_69992075924700'
+  app/views/layouts/application.html.haml:19:in `_app_views_layouts_application_html_haml___1342028583884254654_69991961531040'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.5ms)
+
+
+Started GET "/student_requests/new" for 10.240.1.20 at 2016-10-21 15:07:50 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (2.3ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (1.9ms)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.0.182 at 2016-10-21 15:07:50 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.1.15 at 2016-10-21 15:07:50 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.1.20 at 2016-10-21 15:07:50 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.0.187 at 2016-10-21 15:07:50 +0000
+Cannot render console from 10.240.0.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.0.241 at 2016-10-21 15:07:50 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.179 at 2016-10-21 15:07:50 +0000
+Cannot render console from 10.240.0.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.240.1.32 at 2016-10-21 16:22:25 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentRequestsController#index as HTML
+  [1m[35mStudentRequest Load (0.2ms)[0m  SELECT "student_requests".* FROM "student_requests"
+  Rendered student_requests/index.html.haml within layouts/application (14.1ms)
+  Rendered layouts/_header.html.haml (0.8ms)
+  Rendered layouts/_footer.html.haml (0.7ms)
+Completed 200 OK in 297ms (Views: 286.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.0.119 at 2016-10-21 16:22:26 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.1.19 at 2016-10-21 16:22:26 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.1.15 at 2016-10-21 16:22:26 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.0.208 at 2016-10-21 16:22:26 +0000
+Cannot render console from 10.240.0.208! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.1.20 at 2016-10-21 16:22:26 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.119 at 2016-10-21 16:22:26 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.240.1.15 at 2016-10-21 16:24:12 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  [1m[36mStudentRequest Load (0.4ms)[0m  [1mSELECT "student_requests".* FROM "student_requests"[0m
+  Rendered student_requests/index.html.haml within layouts/application (10.7ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 44ms (Views: 42.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.0.208 at 2016-10-21 16:24:12 +0000
+Cannot render console from 10.240.0.208! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.1.32 at 2016-10-21 16:24:12 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.0.208 at 2016-10-21 16:24:12 +0000
+Cannot render console from 10.240.0.208! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.1.32 at 2016-10-21 16:24:12 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.1.15 at 2016-10-21 16:24:12 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.0.186 at 2016-10-21 16:24:12 +0000
+Cannot render console from 10.240.0.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.240.0.208 at 2016-10-21 16:24:25 +0000
+Cannot render console from 10.240.0.208! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  [1m[35mStudentRequest Load (0.3ms)[0m  SELECT "student_requests".* FROM "student_requests"
+  Rendered student_requests/index.html.haml within layouts/application (4.7ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.0.208 at 2016-10-21 16:24:25 +0000
+Cannot render console from 10.240.0.208! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.0.119 at 2016-10-21 16:24:25 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.0.206 at 2016-10-21 16:24:25 +0000
+Cannot render console from 10.240.0.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.207 at 2016-10-21 16:24:25 +0000
+Cannot render console from 10.240.0.207! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.0.110 at 2016-10-21 16:24:25 +0000
+Cannot render console from 10.240.0.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.1.19 at 2016-10-21 16:24:25 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.240.0.186 at 2016-10-21 16:24:34 +0000
+Cannot render console from 10.240.0.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  [1m[36mStudentRequest Load (0.2ms)[0m  [1mSELECT "student_requests".* FROM "student_requests"[0m
+  Rendered student_requests/index.html.haml within layouts/application (4.0ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.0ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.0.208 at 2016-10-21 16:24:35 +0000
+Cannot render console from 10.240.0.208! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.0.119 at 2016-10-21 16:24:35 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.1.19 at 2016-10-21 16:24:35 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.0.206 at 2016-10-21 16:24:35 +0000
+Cannot render console from 10.240.0.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.1.15 at 2016-10-21 16:24:35 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.186 at 2016-10-21 16:24:35 +0000
+Cannot render console from 10.240.0.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.240.0.110 at 2016-10-21 16:25:53 +0000
+Cannot render console from 10.240.0.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  Rendered student_requests/index.html.haml within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/student_requests/index.html.haml:28: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...rue_false((link_to <button type="button">Cancel</button>.htm...
+...                               ^
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:29: unknown regexp options - td
+unmatched close parenthesis: /button>.html_safe, new_student_request_path
+));}</
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:29: syntax error, unexpected $undefined
+));}</td>\n    </tr>\n", -1, false);end...
+          ^
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:29: unknown regexp options - tbdy
+unmatched close parenthesis: /tr>\n", -1, false);end;_hamlout.push_text("  </
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:29: syntax error, unexpected $undefined
+..._hamlout.push_text("  </tbody>\n  #{_hamlout.adjust_tabs(-1)...
+...                               ^
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:31: syntax error, unexpected tSTRING_DEND, expecting ')'
+));}\n</table>\n", -1, false);::H...
+    ^
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:31: unterminated regexp meets end of file
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:31: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/student_requests/index.html.haml:28: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/student_requests/index.html.haml:29: unknown regexp options - td
+  app/views/student_requests/index.html.haml:29: syntax error, unexpected $undefined
+  app/views/student_requests/index.html.haml:29: unknown regexp options - tbdy
+  app/views/student_requests/index.html.haml:29: syntax error, unexpected $undefined
+  app/views/student_requests/index.html.haml:31: syntax error, unexpected tSTRING_DEND, expecting ')'
+  app/views/student_requests/index.html.haml:31: unterminated regexp meets end of file
+  app/views/student_requests/index.html.haml:31: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.1ms)
+
+
+Started GET "/" for 10.240.1.20 at 2016-10-21 16:26:18 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  [1m[35mStudentRequest Load (0.3ms)[0m  SELECT "student_requests".* FROM "student_requests"
+  Rendered student_requests/index.html.haml within layouts/application (5.8ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 100ms (Views: 98.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.0.182 at 2016-10-21 16:26:19 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.0.182 at 2016-10-21 16:26:19 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.0.182 at 2016-10-21 16:26:19 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.1.17 at 2016-10-21 16:26:19 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.1.19 at 2016-10-21 16:26:19 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.206 at 2016-10-21 16:26:19 +0000
+Cannot render console from 10.240.0.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.240.0.241 at 2016-10-21 16:28:31 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  [1m[36mStudentRequest Load (0.2ms)[0m  [1mSELECT "student_requests".* FROM "student_requests"[0m
+  Rendered student_requests/index.html.haml within layouts/application (3.5ms)
+  Rendered layouts/_header.html.haml (0.0ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.0.241 at 2016-10-21 16:28:31 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.182 at 2016-10-21 16:28:31 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.1.60 at 2016-10-21 16:28:31 +0000
+Cannot render console from 10.240.1.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.0.110 at 2016-10-21 16:28:31 +0000
+Cannot render console from 10.240.0.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.0.208 at 2016-10-21 16:28:31 +0000
+Cannot render console from 10.240.0.208! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.0.204 at 2016-10-21 16:28:31 +0000
+Cannot render console from 10.240.0.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.240.0.186 at 2016-10-21 16:28:41 +0000
+Cannot render console from 10.240.0.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  Rendered student_requests/index.html.haml within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/student_requests/index.html.haml:28: syntax error, unexpected '<'
+..._false_true_false_true_false((<%= f.submit "Save changes", c...
+...                               ^
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:31: syntax error, unexpected tIVAR, expecting ')'
+...ure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+...                               ^
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:31: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                               ^
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:34: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/student_requests/index.html.haml:28: syntax error, unexpected '<'
+  app/views/student_requests/index.html.haml:31: syntax error, unexpected tIVAR, expecting ')'
+  app/views/student_requests/index.html.haml:31: syntax error, unexpected keyword_end, expecting ')'
+  app/views/student_requests/index.html.haml:34: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.0ms)
+
+
+Started GET "/" for 10.240.1.32 at 2016-10-21 16:28:56 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  [1m[35mStudentRequest Load (0.2ms)[0m  SELECT "student_requests".* FROM "student_requests"
+  Rendered student_requests/index.html.haml within layouts/application (4.3ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.1.32 at 2016-10-21 16:28:56 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.1.20 at 2016-10-21 16:28:56 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.1.32 at 2016-10-21 16:28:56 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.0.119 at 2016-10-21 16:28:56 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.0.182 at 2016-10-21 16:28:56 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.241 at 2016-10-21 16:28:56 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.240.1.32 at 2016-10-21 16:29:59 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  [1m[36mStudentRequest Load (0.4ms)[0m  [1mSELECT "student_requests".* FROM "student_requests"[0m
+  Rendered student_requests/index.html.haml within layouts/application (5.2ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.1.17 at 2016-10-21 16:30:00 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.0.206 at 2016-10-21 16:30:00 +0000
+Cannot render console from 10.240.0.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.0.241 at 2016-10-21 16:30:00 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.187 at 2016-10-21 16:30:00 +0000
+Cannot render console from 10.240.0.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.0.119 at 2016-10-21 16:30:00 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.0.208 at 2016-10-21 16:30:00 +0000
+Cannot render console from 10.240.0.208! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/student_requests/new" for 10.240.1.32 at 2016-10-21 16:30:07 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (11.1ms)
+  Rendered layouts/_header.html.haml (0.8ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.240.0.179 at 2016-10-21 16:31:23 +0000
+Cannot render console from 10.240.0.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  [1m[35mStudentRequest Load (0.3ms)[0m  SELECT "student_requests".* FROM "student_requests"
+  Rendered student_requests/index.html.haml within layouts/application (41.1ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined local variable or method `cancel_student_request_path' for #<#<Class:0x00000003ffafc0>:0x007f0b4518b328>
+Did you mean?  new_student_request_path):
+    25:         %td= record.course_id
+    26:         %td= record.section_id
+    27:         %td= record.state
+    28:         %td= link_to('<button type="button">Cancel</button>'.html_safe, cancel_student_request_path)
+    29:         
+    30:   = link_to '<button type="button">New Force Request</button>'.html_safe, new_student_request_path
+    31:           
+  app/views/student_requests/index.html.haml:28:in `block in _app_views_student_requests_index_html_haml__1623204298971526544_69843190283900'
+  app/views/student_requests/index.html.haml:18:in `_app_views_student_requests_index_html_haml__1623204298971526544_69843190283900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.3ms)
+
+
+Started GET "/" for 10.240.1.17 at 2016-10-21 16:31:36 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  [1m[36mStudentRequest Load (0.4ms)[0m  [1mSELECT "student_requests".* FROM "student_requests"[0m
+  Rendered student_requests/index.html.haml within layouts/application (6.4ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 171ms (Views: 169.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.0.182 at 2016-10-21 16:31:37 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.1.15 at 2016-10-21 16:31:37 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.241 at 2016-10-21 16:31:37 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.1.19 at 2016-10-21 16:31:37 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.0.208 at 2016-10-21 16:31:37 +0000
+Cannot render console from 10.240.0.208! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.0.206 at 2016-10-21 16:31:37 +0000
+Cannot render console from 10.240.0.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/student_requests/new" for 10.240.0.179 at 2016-10-21 16:31:41 +0000
+Cannot render console from 10.240.0.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (2.4ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/student_requests/new" for 10.240.1.17 at 2016-10-21 16:32:36 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (7.2ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.1.17 at 2016-10-21 16:32:36 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.0.182 at 2016-10-21 16:32:36 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.0.119 at 2016-10-21 16:32:36 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.207 at 2016-10-21 16:32:36 +0000
+Cannot render console from 10.240.0.207! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.0.186 at 2016-10-21 16:32:36 +0000
+Cannot render console from 10.240.0.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.1.60 at 2016-10-21 16:32:36 +0000
+Cannot render console from 10.240.1.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/student_requests/new" for 10.240.0.110 at 2016-10-21 16:32:42 +0000
+Cannot render console from 10.240.0.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (7.7ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.0ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.0.110 at 2016-10-21 16:32:43 +0000
+Cannot render console from 10.240.0.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.0.207 at 2016-10-21 16:32:43 +0000
+Cannot render console from 10.240.0.207! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.1.32 at 2016-10-21 16:32:43 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.0.182 at 2016-10-21 16:32:43 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.0.204 at 2016-10-21 16:32:43 +0000
+Cannot render console from 10.240.0.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.1.15 at 2016-10-21 16:32:43 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/student_requests/new" for 10.240.1.15 at 2016-10-21 16:33:13 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (5.7ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.0.182 at 2016-10-21 16:33:13 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.1.32 at 2016-10-21 16:33:13 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.0.186 at 2016-10-21 16:33:13 +0000
+Cannot render console from 10.240.0.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.1.60 at 2016-10-21 16:33:13 +0000
+Cannot render console from 10.240.1.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.1.17 at 2016-10-21 16:33:13 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.208 at 2016-10-21 16:33:13 +0000
+Cannot render console from 10.240.0.208! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/student_requests/new" for 10.240.1.20 at 2016-10-21 16:33:20 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (5.6ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.1.20 at 2016-10-21 16:33:20 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.119 at 2016-10-21 16:33:20 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.1.17 at 2016-10-21 16:33:20 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.1.60 at 2016-10-21 16:33:20 +0000
+Cannot render console from 10.240.1.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.0.241 at 2016-10-21 16:33:20 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.0.187 at 2016-10-21 16:33:20 +0000
+Cannot render console from 10.240.0.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/student_requests" for 10.240.0.241 at 2016-10-21 16:34:03 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R0P3gPNfI2AbRIU3riyj9Dos2H/vPmUzBKlvcxIJ9i8UO9IJjHq97rOXl0u3SiFyzRt89DUWDVEPBMDiyy1lDA==", "student_request"=>{"uin"=>"321213", "full_name"=>"dsadas", "classification"=>"G7", "minor"=>"dasdadas", "email"=>"", "phone"=>"", "expected_graduation"=>"", "request_semester"=>"", "course_id"=>"", "section_id"=>"", "notes"=>""}, "commit"=>"Save Request"}
+  [1m[35m (2.8ms)[0m  begin transaction
+  [1m[36mStudentRequest Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "student_requests" WHERE "student_requests"."request_id" = ? LIMIT 1[0m  [["request_id", "FRS1f5d03dc0487d51338c1"]]
+  [1m[35mSQL (7.2ms)[0m  INSERT INTO "student_requests" ("uin", "full_name", "classification", "minor", "email", "phone", "expected_graduation", "request_semester", "course_id", "section_id", "notes", "request_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["uin", "321213"], ["full_name", "dsadas"], ["classification", "G7"], ["minor", "dasdadas"], ["email", ""], ["phone", ""], ["expected_graduation", ""], ["request_semester", ""], ["course_id", ""], ["section_id", ""], ["notes", ""], ["request_id", "FRS1f5d03dc0487d51338c1"]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://force-request-system-new-shubham7jain.c9users.io:8080/student_requests
+Completed 302 Found in 58ms (ActiveRecord: 19.6ms)
+
+
+Started GET "/student_requests" for 10.240.0.204 at 2016-10-21 16:34:04 +0000
+Cannot render console from 10.240.0.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  [1m[35mStudentRequest Load (0.2ms)[0m  SELECT "student_requests".* FROM "student_requests"
+  Rendered student_requests/index.html.haml within layouts/application (1.3ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.0ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/student_requests" for 10.240.0.241 at 2016-10-21 16:52:00 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  [1m[36mStudentRequest Load (0.5ms)[0m  [1mSELECT "student_requests".* FROM "student_requests"[0m
+  Rendered student_requests/index.html.haml within layouts/application (48.7ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (undefined local variable or method `cancel_student_request_path' for #<#<Class:0x007f0b46352d90>:0x007f0b462fadc0>
+Did you mean?  new_student_request_path):
+    27:         %td= record.state
+    28:         %td= link_to('<button type="button">Cancel</button>'.html_safe, new_student_request_path)
+    29:         
+    30:   = link_to '<button type="button">New Force Request</button>'.html_safe, cancel_student_request_path
+    31:           
+    32:         
+    33:         
+  app/views/student_requests/index.html.haml:30:in `_app_views_student_requests_index_html_haml__1623204298971526544_69843199446340'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.5ms)
+
+
+Started GET "/student_requests" for 10.240.0.110 at 2016-10-21 16:56:07 +0000
+Cannot render console from 10.240.0.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  Rendered student_requests/index.html.haml within layouts/application (11.7ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/student_requests/index.html.haml:28: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+... cancel_student_request_path(:))
+...                               ^
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:29: unknown regexp options - tr
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:29: syntax error, unexpected $undefined
+));}</td>\n    </tr>\n", -1, false);end;_hamlout.p...
+                     ^
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:31: unknown regexp options - tabl
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:31: syntax error, unexpected $undefined
+));}\n</table>\n", -1, false);::Haml::Util.h...
+               ^
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:31: unterminated string meets end of file
+/home/ubuntu/workspace/app/views/student_requests/index.html.haml:31: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/student_requests/index.html.haml:28: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+  app/views/student_requests/index.html.haml:29: unknown regexp options - tr
+  app/views/student_requests/index.html.haml:29: syntax error, unexpected $undefined
+  app/views/student_requests/index.html.haml:31: unknown regexp options - tabl
+  app/views/student_requests/index.html.haml:31: syntax error, unexpected $undefined
+  app/views/student_requests/index.html.haml:31: unterminated string meets end of file
+  app/views/student_requests/index.html.haml:31: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.4ms)
+
+
+Started GET "/student_requests" for 10.240.0.186 at 2016-10-21 16:56:25 +0000
+Cannot render console from 10.240.0.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  [1m[35mStudentRequest Load (0.4ms)[0m  SELECT "student_requests".* FROM "student_requests"
+  Rendered student_requests/index.html.haml within layouts/application (57.8ms)
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined local variable or method `cancel_student_request_path' for #<#<Class:0x007f0b301e3330>:0x007f0b44f23928>
+Did you mean?  new_student_request_path):
+    25:         %td= record.course_id
+    26:         %td= record.section_id
+    27:         %td= record.state
+    28:         %td= link_to('<button type="button">Cancel</button>'.html_safe, cancel_student_request_path)
+    29:         
+    30:   = link_to '<button type="button">New Force Request</button>'.html_safe, new_student_request_path
+    31:           
+  app/views/student_requests/index.html.haml:28:in `block in _app_views_student_requests_index_html_haml__1623204298971526544_69843189040320'
+  app/views/student_requests/index.html.haml:18:in `_app_views_student_requests_index_html_haml__1623204298971526544_69843189040320'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.5ms)
+
+
+Started GET "/student_requests" for 10.240.0.110 at 2016-10-21 17:00:36 +0000
+Cannot render console from 10.240.0.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  [1m[36mStudentRequest Load (0.4ms)[0m  [1mSELECT "student_requests".* FROM "student_requests"[0m
+  Rendered student_requests/index.html.haml within layouts/application (10.7ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 84ms (Views: 81.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.0.241 at 2016-10-21 17:00:36 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.0.241 at 2016-10-21 17:00:36 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.0.182 at 2016-10-21 17:00:36 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.0.179 at 2016-10-21 17:00:36 +0000
+Cannot render console from 10.240.0.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.1.15 at 2016-10-21 17:00:36 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.0.241 at 2016-10-21 17:00:36 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/student_requests/new" for 10.240.0.182 at 2016-10-21 17:00:38 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (5.5ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.0ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/student_requests" for 10.240.0.110 at 2016-10-21 17:00:39 +0000
+Cannot render console from 10.240.0.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sF0Y1QDENNvJ5pwcU3xga4pYuoPeAS2ncQY21TFAqbDjJT1cf+GqVWE1jmBKGuLtfW8eCAQpRcV6q5lE6GQ6kw==", "student_request"=>{"uin"=>"", "full_name"=>"", "classification"=>"G7", "minor"=>"", "email"=>"", "phone"=>"", "expected_graduation"=>"", "request_semester"=>"", "course_id"=>"", "section_id"=>"", "notes"=>""}, "commit"=>"Save Request"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 18ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordInvalid (Validation failed: Uin can't be blank):
+  app/controllers/student_requests_controller.rb:30:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.2ms)
+
+
+Started POST "/student_requests" for 10.240.0.179 at 2016-10-21 17:04:36 +0000
+Cannot render console from 10.240.0.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8VPGo/kGI7UwM4gZPvuQ1kEsGyZ5pNPOxV8LRvacddSiK+MqhiO9O5jgmmUnnRJQthu/raOMu6zO8qTXL7jm9w==", "student_request"=>{"uin"=>"", "full_name"=>"", "classification"=>"G7", "minor"=>"", "email"=>"", "phone"=>"", "expected_graduation"=>"", "request_semester"=>"", "course_id"=>"", "section_id"=>"", "notes"=>""}, "commit"=>"Save Request"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 24ms (ActiveRecord: 0.6ms)
+
+ActiveRecord::RecordInvalid (Validation failed: Uin can't be blank, Full name can't be blank, Major can't be blank, Email can't be blank, Request semester can't be blank, Course can't be blank):
+  app/controllers/student_requests_controller.rb:30:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.4ms)
+
+
+Started GET "/" for 128.194.5.149 at 2016-10-21 17:06:21 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentRequestsController#index as HTML
+  [1m[35mStudentRequest Load (0.3ms)[0m  SELECT "student_requests".* FROM "student_requests"
+  Rendered student_requests/index.html.haml within layouts/application (20.2ms)
+  Rendered layouts/_header.html.haml (0.8ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 342ms (Views: 328.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 128.194.5.149 at 2016-10-21 17:06:22 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 128.194.5.149 at 2016-10-21 17:06:22 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.194.5.149 at 2016-10-21 17:06:22 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.194.5.149 at 2016-10-21 17:06:22 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 128.194.5.149 at 2016-10-21 17:06:22 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 128.194.5.149 at 2016-10-21 17:06:22 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/student_requests/new" for 128.194.5.149 at 2016-10-21 17:06:26 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (33.2ms)
+  Rendered layouts/_header.html.haml (2.2ms)
+  Rendered layouts/_footer.html.haml (0.9ms)
+Completed 200 OK in 70ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/student_requests" for 128.194.5.149 at 2016-10-21 17:06:47 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q3z+qn7AzCV2/rU1PJ9M3MyC+tSCb8X+cj/hCFbsXvj4BNsjAeVSq94tp0kl+c5aO7VeX1hHrZx5kk6Zj8jN2w==", "student_request"=>{"uin"=>"321321", "full_name"=>"dsadsa", "classification"=>"G7", "minor"=>"cdsa", "email"=>"sdadas", "phone"=>"cddsaasd", "expected_graduation"=>"sdaasdads", "request_semester"=>"dfsaadsdas", "course_id"=>"dfsaadsads", "section_id"=>"dasad", "notes"=>"addsaads"}, "commit"=>"Save Request"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Completed 422 Unprocessable Entity in 34ms (ActiveRecord: 0.3ms)
+
+ActiveRecord::RecordInvalid (Validation failed: Major can't be blank):
+  app/controllers/student_requests_controller.rb:30:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.4ms)
+
+
+Started POST "/student_requests" for 128.194.5.149 at 2016-10-21 17:07:00 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Atf4CriF7GYGeHrFDWYbxWXf0tBdcudqNXsPI2MX8J1Rr92Dx6By6K6raLkUAJlDkuh2W4dajwg+1qCyujNjvg==", "student_request"=>{"uin"=>"321321", "full_name"=>"dsadsasds", "classification"=>"G7", "minor"=>"cdsa", "email"=>"sdadas", "phone"=>"cddsaasd", "expected_graduation"=>"sdaasdads", "request_semester"=>"dfsaadsdas", "course_id"=>"dfsaadsads", "section_id"=>"dasad", "notes"=>"addsaads"}, "commit"=>"Save Request"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Completed 422 Unprocessable Entity in 3ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::RecordInvalid (Validation failed: Major can't be blank):
+  app/controllers/student_requests_controller.rb:30:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.6ms)
+
+
+Started POST "/student_requests" for 128.194.5.149 at 2016-10-21 17:07:44 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Atf4CriF7GYGeHrFDWYbxWXf0tBdcudqNXsPI2MX8J1Rr92Dx6By6K6raLkUAJlDkuh2W4dajwg+1qCyujNjvg==", "student_request"=>{"uin"=>"321321", "full_name"=>"dsadsasds", "classification"=>"G7", "minor"=>"cdsa", "email"=>"sdadas", "phone"=>"cddsaasd", "expected_graduation"=>"sdaasdads", "request_semester"=>"dfsaadsdas", "course_id"=>"dfsaadsads", "section_id"=>"dasad", "notes"=>"addsaads"}, "commit"=>"Save Request"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Completed 422 Unprocessable Entity in 15ms (ActiveRecord: 0.7ms)
+
+ActiveRecord::RecordInvalid (Validation failed: Major can't be blank):
+  app/controllers/student_requests_controller.rb:31:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.1ms)
+
+
+Started POST "/student_requests" for 128.194.5.149 at 2016-10-21 17:08:34 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Atf4CriF7GYGeHrFDWYbxWXf0tBdcudqNXsPI2MX8J1Rr92Dx6By6K6raLkUAJlDkuh2W4dajwg+1qCyujNjvg==", "student_request"=>{"uin"=>"321321", "full_name"=>"dsadsasds", "classification"=>"G7", "minor"=>"cdsa", "email"=>"sdadas", "phone"=>"cddsaasd", "expected_graduation"=>"sdaasdads", "request_semester"=>"dfsaadsdas", "course_id"=>"dfsaadsads", "section_id"=>"dasad", "notes"=>"addsaads"}, "commit"=>"Save Request"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Completed 422 Unprocessable Entity in 124ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordInvalid (Validation failed: Major can't be blank):
+  app/controllers/student_requests_controller.rb:31:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.2ms)
+
+
+Started POST "/student_requests" for 128.194.5.149 at 2016-10-21 17:08:39 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Atf4CriF7GYGeHrFDWYbxWXf0tBdcudqNXsPI2MX8J1Rr92Dx6By6K6raLkUAJlDkuh2W4dajwg+1qCyujNjvg==", "student_request"=>{"uin"=>"321321", "full_name"=>"dsadsasds", "classification"=>"G7", "minor"=>"cdsa", "email"=>"sdadas", "phone"=>"cddsaasd", "expected_graduation"=>"sdaasdads", "request_semester"=>"dfsaadsdas", "course_id"=>"dfsaadsads", "section_id"=>"dasad", "notes"=>"addsaads"}, "commit"=>"Save Request"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Completed 422 Unprocessable Entity in 3ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::RecordInvalid (Validation failed: Major can't be blank):
+  app/controllers/student_requests_controller.rb:31:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.5ms)
+
+
+Started GET "/student_requests/new" for 128.194.5.149 at 2016-10-21 17:08:42 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#new as HTML
+  Rendered student_requests/new.html.haml within layouts/application (5.5ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 128.194.5.149 at 2016-10-21 17:08:42 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 128.194.5.149 at 2016-10-21 17:08:42 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.194.5.149 at 2016-10-21 17:08:42 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.194.5.149 at 2016-10-21 17:08:42 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 128.194.5.149 at 2016-10-21 17:08:42 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 128.194.5.149 at 2016-10-21 17:08:42 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/student_requests" for 128.194.5.149 at 2016-10-21 17:08:54 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rCdv4PULPh4dFKOvxSGfi6bPRXUAjX8wSxel3Ojm+xr/X0ppii6gkLXHsdPcRx0NUfjh/tqlF1JAugpNMcJoOQ==", "student_request"=>{"uin"=>"321231d", "full_name"=>"dsaasd", "major"=>"dsfaasd", "classification"=>"G7", "minor"=>"", "email"=>"asddsa", "phone"=>"dasas", "expected_graduation"=>"dsaasd", "request_semester"=>"dsaads", "course_id"=>"dfasd", "section_id"=>"dsads", "notes"=>""}, "commit"=>"Save Request"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mStudentRequest Exists (0.2ms)[0m  SELECT  1 AS one FROM "student_requests" WHERE "student_requests"."request_id" = ? LIMIT 1  [["request_id", "FRS8c93a2871e78e9452f09"]]
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "student_requests" ("uin", "full_name", "major", "classification", "minor", "email", "phone", "expected_graduation", "request_semester", "course_id", "section_id", "notes", "request_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["uin", "321231d"], ["full_name", "dsaasd"], ["major", "dsfaasd"], ["classification", "G7"], ["minor", ""], ["email", "asddsa"], ["phone", "dasas"], ["expected_graduation", "dsaasd"], ["request_semester", "dsaads"], ["course_id", "dfasd"], ["section_id", "dsads"], ["notes", ""], ["request_id", "FRS8c93a2871e78e9452f09"]]
+  [1m[35m (149.9ms)[0m  commit transaction
+Redirected to https://force-request-system-new-shubham7jain.c9users.io/student_requests
+Completed 302 Found in 171ms (ActiveRecord: 150.9ms)
+
+
+Started GET "/student_requests" for 128.194.5.149 at 2016-10-21 17:08:54 +0000
+Cannot render console from 128.194.5.149! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StudentRequestsController#index as HTML
+  [1m[36mStudentRequest Load (0.2ms)[0m  [1mSELECT "student_requests".* FROM "student_requests"[0m
+  Rendered student_requests/index.html.haml within layouts/application (1.4ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+  Rendered layouts/_footer.html.haml (0.0ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 10.240.1.15 at 2016-10-22 19:31:59 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentRequestsController#index as HTML
+  [1m[35mStudentRequest Load (0.2ms)[0m  SELECT "student_requests".* FROM "student_requests"
+  Rendered student_requests/index.html.haml within layouts/application (14.3ms)
+  Rendered layouts/_header.html.haml (1.0ms)
+  Rendered layouts/_footer.html.haml (0.7ms)
+Completed 200 OK in 317ms (Views: 305.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/default.self-0ea61855ab465c9c6dfdfd4bf4781b21148d7e0a99709133f295c935a01ba9b1.css?body=1" for 10.240.0.186 at 2016-10-22 19:32:00 +0000
+Cannot render console from 10.240.0.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 10.240.1.15 at 2016-10-22 19:32:00 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 10.240.0.179 at 2016-10-22 19:32:00 +0000
+Cannot render console from 10.240.0.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 10.240.0.241 at 2016-10-22 19:32:00 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.1.19 at 2016-10-22 19:32:00 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 10.240.0.110 at 2016-10-22 19:32:00 +0000
+Cannot render console from 10.240.0.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
